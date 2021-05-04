@@ -108,3 +108,7 @@ footer{
   background-color: #deeaee;
   justify-content: space-between;
 }
+footer a{
+  padding: 10px;
+  color: inherit;
+}

@@ -268,7 +268,7 @@ function changeCountry(sel) {
 
 // Fetch data from api
 async function getCovidInfo(code){
-  const data = await fetch('https://api.covid19api.com/summary');
+  const data = await fetch('https://api.covidtracking.com');
   const jdata = await data.json();
   console.log(jdata);
   let flag=0;
